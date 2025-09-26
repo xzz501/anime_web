@@ -96,21 +96,18 @@ body{
 .imge img{
   display: block;
   width: 100%;
-  /* height: 90%; */
+  
   
 }
 .shadow {
   position: absolute;
   top: 60%;
   flex-wrap: wrap;
-  /* left: 0; */
+  
   width: 100%;
-  /* right: 0; */
-  /* bottom: 0; */
+ 
   height: 70px;
-  /* background-color: black; */
-  /* opacity: 0.3; */
-  /* box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.8); */
+  
 
   pointer-events: none;
   color: #fef9f9;
