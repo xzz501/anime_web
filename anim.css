@@ -43,6 +43,7 @@ body{
 .spac h2 a{
   text-decoration: none;
   color: #c6c6c9;
+  font-family: 'Courier New', Courier, monospace;
 }
 .popl_img{
   display: flex;
