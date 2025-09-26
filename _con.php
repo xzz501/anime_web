@@ -102,6 +102,7 @@ function chack_phon_date(){
         return false;
     }
 }
+// التحقق من ان كل البيانات
 if(chakuser() && chakpass() && chaemal()){
 $con=mysqli_connect('localhost','root','','animes');
 if(mysqli_connect_error()){
