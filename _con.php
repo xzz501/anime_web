@@ -84,6 +84,7 @@ function chaemal(){
 // التحقق من الرقم
 function chack_phon_date(){
     global $eror;
+    // التحقق من الرقم و التاريخ
     if(!empty($_POST['phon']) and !empty($_POST['data'])){
         $phon=trim(htmlspecialchars($_POST['phon'],ENT_QUOTES,'UTF-8'));
         if(preg_match('/^[0-9]{9}$/',$phon)){
