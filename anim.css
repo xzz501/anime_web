@@ -59,7 +59,7 @@ body{
 .inhet{
    display: flex;
    flex-direction: column;
-   border-radius:20px;
+   border-radius:18px;
    background-color: #c61f1f;
    width: 30%;
    height: 40%;
