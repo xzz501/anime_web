@@ -114,6 +114,7 @@ $pho=intval($_POST['phon']);
 $em=$_POST['email'];
 $ps=$_POST['pass'];
 $da=$_POST['data'];
+// الاضافة الى قاعدة البيانات
 mysqli_query($con,"INSERT INTO users(name,number,email,pass,data) VALUES('$name',$pho,'$em','$ps','$da');");
 mysqli_close($con);
 $_SESSION['loggedin']=true;
