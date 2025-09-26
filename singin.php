@@ -23,9 +23,10 @@ if (isset($_SESSION['value']) and isset($_SESSION['n'])) {
 </head>
 <body>
 <div class="container ">
+  <!-- فريم تسجيل الدخول -->
 <form action="_con.php" method="post">
  
-  <div class="border border-3 container mt-5 p-5" style="height: 700px;width:500px;">
+  <div class="border border-3 container mt-5 p-4" style="height: 700px;width:500px;">
     
     
   
