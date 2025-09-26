@@ -104,6 +104,7 @@ function chack_phon_date(){
 }
 // التحقق من ان كل البيانات
 if(chakuser() && chakpass() && chaemal()){
+    // الاتصال بقاعدة البيانات
 $con=mysqli_connect('localhost','root','','animes');
 if(mysqli_connect_error()){
     echo "error";
