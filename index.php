@@ -3,6 +3,7 @@
 session_start();
 // التحقق من تسجيل الدخول
 if (isset($_SESSION['loggedin'])){ 
+  //التحويل الى صفحة الرئسية
   header("Location: what's.php");
 }
 
@@ -29,7 +30,7 @@ if (isset($_COOKIE['username']) && !isset($_SESSION['loggedin'])) {
     
     
   
-  <div class="d-flex flex-column justify-content-center shadow-lg p-4 mb-4 bg-black" h>
+  <div class="d-flex flex-column justify-content-center shadow-lg p-4 mb-3 bg-black" >
     <div class="input-group justify-content-center" style="justify-items: center">
       
     <img src="logo.jpg" alt="Avatar Logo" style="width:50px;" class="rounded-pill">
