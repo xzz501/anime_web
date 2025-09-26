@@ -24,6 +24,7 @@ if (isset($_COOKIE['username']) && !isset($_SESSION['loggedin'])) {
 </head>
 <body>
 <div class="container ">
+  <!-- الفورم ارسال البيانات -->
 <form action="pho.php" method="post">
  
   <div class="border border-3 container mt-5 p-5" style="height: 600px;width:500px;">
