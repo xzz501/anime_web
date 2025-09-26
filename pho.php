@@ -10,6 +10,7 @@ if(!empty($_POST['name']) and !empty($_POST['email']) and !empty($_POST['pass'])
  $email=htmlspecialchars($_POST['email'],ENT_QUOTES,'UTF-8');
  $pass=htmlspecialchars($_POST['pass'],ENT_QUOTES,'UTF-8');
  $r=mysqli_query($con,"SELECT * FROM users ");
+ //loop الخاصة بالمستخدمين
 while($rr= mysqli_fetch_array($r)) {
  if ($rr['name']===$user and $rr['email']===$email and $rr['pass']===$pass) {
   $_SESSION['username']=$user;
