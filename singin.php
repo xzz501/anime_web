@@ -41,6 +41,7 @@ if (isset($_SESSION['value']) and isset($_SESSION['n'])) {
     
     <input type="text" class="form-control mb-3" placeholder="اسم ابمستخدم "name="name" require>
     <span style="color:red;font-size:10px;" class="input-group">
+      <!-- معرفة غلط الادخال -->
     <?php 
         
         if($rr and $n==1){
