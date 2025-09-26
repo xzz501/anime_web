@@ -60,7 +60,7 @@ if (isset($_COOKIE['username']) && !isset($_SESSION['loggedin'])) {
 </div>
 <div class="input-group justify-content-center">
   
- <a href="passcon.php" style="text-decoration: none;text-align: center;width: 90px;" class="badge rounded-pill bg-primary mt-3"> نسيت كلمة المرور</a>
+ <a href="passcon.php" style="text-decoration: none;text-align: center;width: 88px;" class="badge rounded-pill bg-primary mt-3"> نسيت كلمة المرور</a>
 </div>
 <div class="input-group justify-content-center">
   <!-- التحويل الى صفحة تسجيل حساب جديد -->
