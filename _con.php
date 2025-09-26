@@ -31,6 +31,7 @@ function chakuser(){
 // دالة التحقق من كلمة المرور
 function chakpass(){
     global $eror;
+    // التحقق من طول كلمة المرور
     if(!empty($_POST['pass']) and !empty($_POST['pass1'])){
         $pas=trim(htmlspecialchars($_POST['pass'],ENT_QUOTES,'UTF-8'));
         $pass1=trim(htmlspecialchars($_POST['pass1'],ENT_QUOTES,'UTF-8'));
