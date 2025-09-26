@@ -117,6 +117,7 @@ $dat=$_POST['data'];
 // الاضافة الى قاعدة البيانات
 mysqli_query($con,"INSERT INTO users(name,number,email,pass,data) VALUES('$user_name',$phono_number,'$email_adderss','$password','$dat');");
 mysqli_close($con);
+// انشاء جلسة جيدة للمستخدم
 $_SESSION['loggedin']=true;
 header("Location:what's.php");
 }
