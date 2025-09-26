@@ -81,6 +81,7 @@ function chaemal(){
         return false;
     }
 }
+// التحقق من الرقم
 function chack_phon_date(){
     global $eror;
     if(!empty($_POST['phon']) and !empty($_POST['data'])){
