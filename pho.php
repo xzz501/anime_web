@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+//الاتصال بالقاعدة البيانات 
 $con=mysqli_connect('localhost','root','','animes');
 if(mysqli_connect_error())
  echo "error";
