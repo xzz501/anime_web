@@ -1,7 +1,9 @@
 <?php
+// بداية الجلسة
 session_start();
 $eror=null;
 function chakuser(){
+    // التحقق من ان طول اسم المستخدم 
     global $eror;
     if (!empty($_POST['name'])){
         $user=trim(htmlspecialchars($_POST['name'],ENT_QUOTES,'UTF-8'));
