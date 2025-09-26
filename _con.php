@@ -63,6 +63,7 @@ function chaemal(){
     global $eror;
     if(!empty($_POST['email'])){
         $emal=trim(htmlspecialchars($_POST['email'],ENT_QUOTES,'UTF-8'));
+        // فلاترت الايمال
         if(filter_var($emal,FILTER_VALIDATE_EMAIL)){
             return true;
         }
