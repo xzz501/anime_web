@@ -19,7 +19,7 @@ if (isset($_SESSION['value']) and isset($_SESSION['n'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="bootstrap.min.css" rel="stylesheet">
 <script src="bootstrap.bundle.min.js"></script>
-    <title></title>
+    <title>تسجيل مستخدم جديد</title>
 </head>
 <body>
 <div class="container ">
