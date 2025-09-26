@@ -58,6 +58,7 @@ function chakpass(){
         return false;
     }
 }
+// التحقق من الايمال
 function chaemal(){
     global $eror;
     if(!empty($_POST['email'])){
