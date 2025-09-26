@@ -109,13 +109,13 @@ $con=mysqli_connect('localhost','root','','animes');
 if(mysqli_connect_error()){
     echo "error";
 }
-$name=$_POST['name'];
-$pho=intval($_POST['phon']);
-$em=$_POST['email'];
-$ps=$_POST['pass'];
-$da=$_POST['data'];
+$user_name=$_POST['name'];
+$phono_number=intval($_POST['phon']);
+$email_address=$_POST['email'];
+$passward=$_POST['pass'];
+$dat=$_POST['data'];
 // الاضافة الى قاعدة البيانات
-mysqli_query($con,"INSERT INTO users(name,number,email,pass,data) VALUES('$name',$pho,'$em','$ps','$da');");
+mysqli_query($con,"INSERT INTO users(name,number,email,pass,data) VALUES('$user_name',$phono_number,'$email_adderss','$password','$dat');");
 mysqli_close($con);
 $_SESSION['loggedin']=true;
 header("Location:what's.php");
