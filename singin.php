@@ -40,7 +40,7 @@ if (isset($_SESSION['value']) and isset($_SESSION['n'])) {
   <div class="input-group">
     
     <input type="text" class="form-control mb-3" placeholder="اسم ابمستخدم "name="name" require>
-    <span style="color:red;font-size:10px;" class="input-group">
+    <span style="color:red;font-size:9px;" class="input-group">
       <!-- معرفة غلط الادخال -->
     <?php 
         
@@ -66,7 +66,7 @@ if (isset($_SESSION['value']) and isset($_SESSION['n'])) {
   </div>
   <div class="input-group">
   <input type="password" class="form-control mb-3" placeholder="كلمة المرور" name="pass" require>
-  <span style="color:red;font-size:10px;" class="input-group">
+  <span style="color:red;font-size:9px;" class="input-group">
     <?php 
         
         if($rr and $n==3){
@@ -78,7 +78,7 @@ if (isset($_SESSION['value']) and isset($_SESSION['n'])) {
 </div>
 <div class="input-group">
   <input type="password" class="form-control mb-3" placeholder="تاكيد كلمة المرور" name="pass1" require>
-  <span style="color:red;font-size:10px;" class="input-group">
+  <span style="color:red;font-size:9px;" class="input-group">
     <?php 
         
         if($rr and $n==4){
@@ -90,7 +90,7 @@ if (isset($_SESSION['value']) and isset($_SESSION['n'])) {
 </div>
 <div class="input-group">
   <input type="" class="form-control mb-3" placeholder="رقم الهاتف" name="phon" require>
-  <span style="color:red;font-size:10px;" class="input-group">
+  <span style="color:red;font-size:9px;" class="input-group">
     <?php 
         
         if($rr and $n==5){
