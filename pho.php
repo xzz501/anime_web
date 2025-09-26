@@ -7,7 +7,7 @@ if(mysqli_connect_error())
 // التحقات من سلامة البيانات المدخلة
 
 if(!empty($_POST['name']) and !empty($_POST['email']) and !empty($_POST['pass'])) {
- $user=htmlspecialchars($_POST['name'],ENT_QUOTES,'UTF-8');
+ $user=htmlspecialchars($_POST['name'],ENT_QUOTES,'UTF-8');//دالت من الحقن 
  $email=htmlspecialchars($_POST['email'],ENT_QUOTES,'UTF-8');
  $pass=htmlspecialchars($_POST['pass'],ENT_QUOTES,'UTF-8');
  $r=mysqli_query($con,"SELECT * FROM users ");
