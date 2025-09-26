@@ -205,12 +205,12 @@ body{
   cursor: pointer;
   border-top-left-radius: 18px;
   border-bottom-left-radius: 18px;
-  color: white;
+  color: rgb(232, 226, 226);
 }
 .name{
   width: 100%;
   display: flex;
-  color:white ;
+  color:rgb(223, 217, 217) ;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -220,7 +220,7 @@ body{
 
 }
 .name #hh{
-  color: #FFFFFF;
+  color: #d0c2c2;
   
 
 }
