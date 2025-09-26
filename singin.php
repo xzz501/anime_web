@@ -5,6 +5,7 @@ session_start();
 if (isset($_SESSION['loggedin'])){
   header("Location: what's.php");
 }
+// استقبال رقم الخطا
 $rr=null;
 $n=0;
 if (isset($_SESSION['value']) and isset($_SESSION['n'])) { 
