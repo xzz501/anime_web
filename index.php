@@ -6,7 +6,7 @@ if (isset($_SESSION['loggedin'])){
   //التحويل الى صفحة الرئسية
   header("Location: what's.php");
 }
-
+//التحقق من ان المستخدم يمتلك جلسة 
 if (isset($_COOKIE['username']) && !isset($_SESSION['loggedin'])) {
     $_SESSION['username'] = $_COOKIE['username'];
     $_SESSION['loggedin'] = true;
