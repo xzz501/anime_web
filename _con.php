@@ -33,7 +33,7 @@ function chakpass(){
     global $eror;
     // التحقق من طول كلمة المرور
     if(!empty($_POST['pass']) and !empty($_POST['pass1'])){
-        $pas=trim(htmlspecialchars($_POST['pass'],ENT_QUOTES,'UTF-8'));
+        $pas=trim(htmlspecialchars($_POST['pass'],ENT_QUOTES,'UTF-8'));//منع الحقن و قص المسافات
         $pass1=trim(htmlspecialchars($_POST['pass1'],ENT_QUOTES,'UTF-8'));
         if(preg_match('/^[A-z0-9]{10,20}$/',$pas) and preg_match('/^[A-z0-9]{10,20}$/',$pass1)){
             // تطابق كلمات المرور
