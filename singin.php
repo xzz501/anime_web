@@ -54,7 +54,7 @@ if (isset($_SESSION['value']) and isset($_SESSION['n'])) {
 
   <div class="input-group">
     <input type="email" class="form-control mb-3" placeholder="الحساب " name="email" require>
-    <span style="color:red;font-size:10px;" class="input-group">
+    <span style="color:red;font-size:9px;" class="input-group">
     <?php 
         
         if($rr and $n==2){
