@@ -119,9 +119,9 @@ body{
   top: 8%;
   width: 24%;
  
-  left: 70%;
+  left: 71%;
   border-radius: 20px;
-  /* height: 70px; */
+  
   pointer-events: none;
   background-color: blue;
   /* opacity: 0.3; */
