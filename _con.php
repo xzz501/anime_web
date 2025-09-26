@@ -12,7 +12,7 @@ function chakuser(){
 
         }
         else{
-            $eror="يرجى ادخال الاسم بشكل صحيح";
+            $eror="اسم المستخدم خاطئ";
             
             // header('Location:singin.php');
             $_SESSION['n']=1;
@@ -20,7 +20,7 @@ function chakuser(){
         }
     }
     else{
-        $eror="يرجى ادخال الحقل الفارغ";
+        $eror="يوجد  حقل الفارغ";
         //header('Location:singin.php');
         $_SESSION['n']=1;
 
