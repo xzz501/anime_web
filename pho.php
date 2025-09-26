@@ -19,6 +19,7 @@ while($rr= mysqli_fetch_array($r)) {
   if(isset($_POST['rem'])){
     setcookie('username',"$user",time()+60*3);
   }
+  // التحويل الى الصفحة الرئسية
   header("Location: what's.php");
 } else {
   header("Location:index.php");
