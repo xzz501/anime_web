@@ -188,6 +188,7 @@ body{
 #p1{
   background-color: #ec0914;
 }
+/* الكلاسات الخاصة بتبديل */
 #sl2{
   display: none;
 }
@@ -197,7 +198,7 @@ body{
 .div1{
   width: 100%;
   display: flex;
-  background-color: #2b09ec;
+  background-color: #ec091c;
   justify-content: space-around;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
