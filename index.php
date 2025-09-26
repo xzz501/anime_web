@@ -20,7 +20,7 @@ if (isset($_COOKIE['username']) && !isset($_SESSION['loggedin'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="bootstrap.min.css" rel="stylesheet">
 <script src="bootstrap.bundle.min.js"></script>
-    <title></title>
+    <title>صفحة تسجيل الدخول</title>
 </head>
 <body>
 <div class="container ">
