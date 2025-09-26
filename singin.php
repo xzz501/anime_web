@@ -103,7 +103,7 @@ if (isset($_SESSION['value']) and isset($_SESSION['n'])) {
      </span>
 </div>
 <div class="input-group">
-  <input type="date" class="form-control mb-3" placeholder="2020/3/2" name="data" require>
+  <input type="date" class="form-control mb-3" placeholder="2025/3/2" name="data" require>
 </div>
 
 <div class="input-group justify-content-center">
