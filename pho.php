@@ -4,6 +4,7 @@ session_start();
 $con=mysqli_connect('localhost','root','','animes');
 if(mysqli_connect_error())
  echo "error";
+// التحقات من سلامة البيانات المدخلة
 
 if(!empty($_POST['name']) and !empty($_POST['email']) and !empty($_POST['pass'])) {
  $user=htmlspecialchars($_POST['name'],ENT_QUOTES,'UTF-8');
