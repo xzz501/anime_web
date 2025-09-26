@@ -36,6 +36,7 @@ function chakpass(){
         $pas=trim(htmlspecialchars($_POST['pass'],ENT_QUOTES,'UTF-8'));
         $pass1=trim(htmlspecialchars($_POST['pass1'],ENT_QUOTES,'UTF-8'));
         if(preg_match('/^[A-z0-9]{6,20}$/',$pas) and preg_match('/^[A-z0-9]{6,20}$/',$pass1)){
+            // تطابق كلمات المرور
             if($pas==$pass1){
                 return true;
             }
