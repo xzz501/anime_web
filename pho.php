@@ -16,7 +16,7 @@ while($rr= mysqli_fetch_array($r)) {
   $_SESSION['username']=$user;
   $_SESSION['loggedin']=true;
   if(isset($_POST['rem'])){
-    setcookie('username',"$user",time()+60*2);
+    setcookie('username',"$user",time()+60*3);
   }
   header("Location: what's.php");
 } else {
