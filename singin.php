@@ -11,11 +11,7 @@ if (isset($_SESSION['value']) and isset($_SESSION['n'])) {
     $rr= $_SESSION['value'];
     $n=$_SESSION['n'];
 } 
-// if (isset($_COOKIE['username']) && !isset($_SESSION['loggedin'])) {
-//     $_SESSION['username'] = $_COOKIE['username'];
-//     $_SESSION['loggedin'] = true;data=""
-// }
-// ?>
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
