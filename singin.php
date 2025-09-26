@@ -96,6 +96,7 @@ if (isset($_SESSION['value']) and isset($_SESSION['n'])) {
         
         if($rr and $n==5){
             echo $rr;
+            // تدمير الجلسة
             session_destroy();
         }
      ?>
