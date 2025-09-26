@@ -176,9 +176,9 @@ body{
 
 }
 .sl p{
-  color: #FFFFFF;
+  color: #e1d8d8;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid rgb(217, 214, 214);
   width: 30%;
   height: 50%;
   font-size: 20px;
