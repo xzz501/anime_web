@@ -44,6 +44,7 @@ body{
   text-decoration: none;
   color: #c6c6c9;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 9px;
 }
 .popl_img{
   display: flex;
