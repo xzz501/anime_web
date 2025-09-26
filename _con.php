@@ -28,6 +28,7 @@ function chakuser(){
     }
     
 }
+// دالة التحقق من كلمة المرور
 function chakpass(){
     global $eror;
     if(!empty($_POST['pass']) and !empty($_POST['pass1'])){
