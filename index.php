@@ -3,9 +3,10 @@
 session_start();
 // التحقق من تسجيل الدخول
 if (isset($_SESSION['loggedin'])){ 
+  //التحويل الى صفحة الرئسية
   header("Location: what's.php");
 }
-
+//التحقق من ان المستخدم يمتلك جلسة 
 if (isset($_COOKIE['username']) && !isset($_SESSION['loggedin'])) {
     $_SESSION['username'] = $_COOKIE['username'];
     $_SESSION['loggedin'] = true;
@@ -19,22 +20,23 @@ if (isset($_COOKIE['username']) && !isset($_SESSION['loggedin'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="bootstrap.min.css" rel="stylesheet">
 <script src="bootstrap.bundle.min.js"></script>
-    <title></title>
+    <title>صفحة تسجيل الدخول</title>
 </head>
 <body>
 <div class="container ">
+  <!-- الفورم ارسال البيانات -->
 <form action="pho.php" method="post">
  
   <div class="border border-3 container mt-5 p-5" style="height: 600px;width:500px;">
     
     
   
-  <div class="d-flex flex-column justify-content-center shadow-lg p-4 mb-4 bg-black" h>
+  <div class="d-flex flex-column justify-content-center shadow-lg p-3 mb-3 bg-black" >
     <div class="input-group justify-content-center" style="justify-items: center">
       
     <img src="logo.jpg" alt="Avatar Logo" style="width:50px;" class="rounded-pill">
     </div>
-    <h2 style="text-align: center" class="pb-5">تسجيل دخول المستخدم</h2>
+    <h2 style="text-align: center" class="pb-5">تسجيل دخول </h2>
   
   <div class="input-group">
     
@@ -58,9 +60,10 @@ if (isset($_COOKIE['username']) && !isset($_SESSION['loggedin'])) {
 </div>
 <div class="input-group justify-content-center">
   
- <a href="passcon.php" style="text-decoration: none;text-align: center;width: 90px;" class="badge rounded-pill bg-primary mt-3"> نسيت كلمة المرور</a>
+ <a href="passcon.php" style="text-decoration: none;text-align: center;width: 88px;" class="badge rounded-pill bg-primary mt-3"> نسيت كلمة المرور</a>
 </div>
 <div class="input-group justify-content-center">
+  <!-- التحويل الى صفحة تسجيل حساب جديد -->
 
   <a href="singin.php" style="text-decoration: none;text-align: center;width: 100px;" class="badge rounded-pill bg-info mt-3"> تسجيل حساب جديد</a>
 </div>
